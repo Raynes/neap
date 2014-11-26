@@ -2,9 +2,9 @@
   "name": "neap",
   "version": "0.1.0",
   "description": "Refheap API client",
-  "main": "index.js",
+  "main": "./lib/neap.js",
   "scripts": {
-    "prepublish": "coffee -o lib -c src"
+    "prepublish": "rm -r lib && coffee -o lib -c src"
   },
   "repository": {
     "type": "git",
