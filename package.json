@@ -1,6 +1,6 @@
 {
   "name": "neap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Refheap API client",
   "main": "./lib/neap.js",
   "scripts": {

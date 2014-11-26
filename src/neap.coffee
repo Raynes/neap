@@ -28,6 +28,7 @@ class Refheap
   createPaste: (contents, options, cb) ->
     if options? instanceof Function
       cb ?= options
+      options = {}
     options ?= {}
     options['contents'] = contents
     @req 'POST', '/paste', options, cb
